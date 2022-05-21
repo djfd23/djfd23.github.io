@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articulo DNS y la solución a sus posibles problemas</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Delguis<b>Ferman</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="#move-content"> <i class="fas fa-home"></i> Inicio</a></li>
+
+                        <li><a href="#dns" > <i class="fas fa-file-alt"></i>Articulo</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    Portada
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>Bienvenidos</h1>
+            <p>Delguis Ferman</p>
+        </div>
+    </div>
+
+    <div class="container-content">
+        <article>
+
+            <h1 id="dns">DNS</h1>
+
+                <p>El sistema de nombres de dominio (DNS) es el directorio telefónico de Internet. Las personas acceden a la información en línea a través de nombres de dominio como nytimes.com o espn.com. Los navegadores web interactúan mediante direcciones de Protocolo de Internet (IP). El DNS traduce los nombres de dominio a direcciones IP para que los navegadores puedan cargar los recursos de Internet.</p>
+
+                <p>Cada dispositivo conectado a Internet tiene una dirección IP única que otros equipos pueden usar para encontrarlo. Los servidores DNS suprimen la necesidad de que los humanos memoricen direcciones IP tales como 192.168.1.1 (en IPv4) o nuevas direcciones IP alfanuméricas más complejas, tales como 2400:cb00:2048:1::c629:d7a2 (en IPv6).
+                </p>
+
+                <img src="img/img2.jpg" alt="">
+
+                <h2 id="dns_cf"> ¿Cómo funciona DNS? </h2>
+
+                     <p>El proceso de solución de DNS supone convertir un nombre de servidor (como www.ejemplo.com) en una dirección IP compatible con el ordenador (como 192.168.1.1). Se da una dirección IP a cada dispositivo en Internet, y esa dirección será necesaria para encontrar el dispositivo apropiado de Internet, al igual que se usa la dirección de una calle para encontrar una casa concreta. Cuando un usuario quiere cargar una página, se debe traducir lo que el usuario escribe en su navegador web (ejemplo.com) a una dirección que el ordenador pueda entender para poder localizar la página web de ejemplo.com.</p>
+
+                    <p>Para entender el proceso de la resolución de DNS, es importante conocer los diferentes componentes de hardware por los que debe pasar una consulta de DNS. Para el navegador web, la búsqueda de DNS se produce "en segundo plano" y no requiere ninguna interacción del ordenador del usuario, aparte de la solicitud inicial.</p>
+
+                    <p>Gracias al uso de servidores DNS podemos navegar de forma sencilla introduciendo el nombre de las páginas web en lugar de complicadas direcciones IP mucho más difíciles de recordar. Si el navegador web no puede establecer una conexión a internet significa que hay problemas DNS o que el servidor DNS no responde, y no se podrá tener acceso a la red para navegar por los distintos sitios web.</p>
+
+                    <p>En este artículo hablaremos de cómo resolver un problema de DNS y conoceremos porque un servidor DNS no responde.</p>
+
+            <h1 id="dns_p"> ¿Presentas problemas con el DNS? </h1>
+
+                <p>Cuando se produce un DNS server problem, o problema con las DNS, no se puede acceder a las páginas web, ya que al introducir el nombre del dominio el servidor DNS no es capaz de redireccionar al navegador a su dirección IP asociada.</p>
+
+                <p>Las principales causas por las que hacen que los navegadores no puedan acceder a sitios web y presenten un mensaje de error de DNS son:</p> 
+
+                <li>Virus o malware que ha infectado al equipo.</li>
+                <li>Errores del propio navegador.</li>
+                <li>El servidor DNS utilizado está caído funcionando de forma anómala.</li>
+                <li>El router es el causante de los problemas de conexión.</li>
+                <li>Los programas de seguridad como firewall o anti malware están bloqueando el acceso.</li>
+                <li>Errores por conflictos en protocolos o por la memoria caché.</li>
+
+
+                <h2 id="dns_cr"> ¿Cómo resolver problemas de DNS? </h2>
+
+
+                    <p>Cuando se produce un problema DNS al utilizar Google u otro sitio web pueden realizarse una serie de comprobaciones para intentar solucionar el problema con las DNS.</p>
+
+                    <img src="img/img3.jpg" alt="">
+
+                    <h3 id="c_dns"> Cambiar las DNS </h3>
+                    
+                        <p>Si hay problemas con el servidor DNS no se tendrá acceso a internet en el navegador. Para solucionarlo se pueden cambiar las DNS añadiendo una DNS principal y secundaria alternativa, como pueden ser las DNS públicas de Google: </p>
+
+                        <li>DNS principal: 8.8.8.8</li>
+                        <li>DNS secundaria: 8.8.4.4</li>
+
+                        <p>Para cambiar las DNS hay que ir a Configuración/Redes e internet, seleccionar el tipo de conexión que se realiza (Wifi o Ethernet) y elegir Cambiar opciones de adaptador. En la nueva ventana, elegir con botón derecho sobre el adaptador que se usa para conectarse a internet la opción Propiedades, seleccionar el protocolo de internet versión 4 (TXC/IPv4) y hacer clic en propiedades. Desde la ventana que configuración emergente se podrán introducir las nuevas DNS a utilizar y así comprobar si se trata de un problema del servidor de DNS.</p> 
+
+                        <img src="img/img1.jpg" alt="">
+
+                    <h3 id="uon_dns"> Utilizar otro navegador </h3>
+
+                        <p>Si no se encuentra el servidor DNS y no hay acceso a internet, el error puede estar producido por el navegador web que se está utilizando. Para comprobarlo basta con probar a acceder a la web utilizando otro navegador. Si se tiene acceso con el nuevo navegador entonces es necesario actualizar el navegador donde se produce el fallo a la última versión disponible o limpiar su caché, para así solventar este problema DNS y recuperar la navegación web.</p>
+
+                        <img src="img/img4.jpg" alt="">
+
+                    <h3 id="dpp_dns">Desactivar programas de protección</h3>
+
+                        <p>Los programas de protección como antivirus, antimalware y cortafuego pueden bloquear el acceso a la navegación web. Desactivarlos durante unos minutos para comprobar si se puede navegar es la mejor forma de comprobar si son los causantes del error de DNS.</p>
+
+                        <p>Si al desactivar el software de protección se recupera la navegación web, hay que ir a sus opciones de configuración y buscar dónde están bloqueando el acceso a los navegadores y proceder a configurar el acceso correctamente.</p>
+
+                    <h3 id="rr_dns">Reiniciar el router</h3>
+
+                        <p>Los routers pueden bloquearse y no realizar su función de proporcionar acceso a internet a través de la fibra o línea de datos. Reiniciando el router se puede solucionar si el error de DNS es debido a este problema.</p>
+
+                    <h3 id="em_dns">Escanear en busca de malware</h3>
+
+                        <p>Algunos programas maliciosos se instalan en el ordenador y, trabajando en segundo plano sin que el usuario sea consciente de ello, hacen que el funcionamiento del equipo sea defectuoso o inestable. Uno de los problemas que pueden ocasionar es el de impedir el acceso a la navegación.</p>
+
+                        <p>Utilizando un programa antimalware se pueden detectar y eliminar este tipo de software y solucionar un error de “el servidor DNS no responde”.</p>
+
+                    <h3 id="lc_dns">Limpiar la caché del DNS y reiniciar la IP</h3>
+
+                        <p>Realizando una limpieza de la caché se puede eliminar el problema que impide la navegación. Con el comando ipconfig/flushdns desde la consola de Windows se puede limpiar la caché y comprobar si era la causante de este error de conexión.</p>
+
+                        <p>Al reiniciar la IP también se puede solucionar un error de DNS. Para ello hay que ejecutar los siguientes comandos en la consola CMD: ipconfig /registerdns, ipconfig /release, ipconfig /renew.</p>
+
+                    <h3 id="ipv6_dns">Comprobar el protocolo IPv6</h3>
+
+                        <p>El protocolo IPv6 se utiliza para poder tener acceso a un mayor número de direcciones IP dado que el IPv4 se queda corto con la gran cantidad de sitios web y dispositivos que se conectan a internet. Si el protocolo está activado y se utiliza IPv4 para acceder a la red es posible que se presente algún error o conflicto que impida la navegación web. Desactivando el protocolo IPv4 se puede comprobar si es el causante de este problema.</p>
+
+                        <p>Las DNS redirigen a hacia la IP de un sitio web cuando se introduce una dirección de dominio en un navegador web. Si se muestra un error de DNS quiere decir que el navegador no puede acceder a los sitios web porque el servidor DNS presenta un error y no puede redirigir hacia la dirección IP de ese sitio.</p>
+
+                        <img src="img/img5.jpg" alt="">
+
+        </article>
+
+        <div class="container-aside">	
+            <h1>Contenido del Articulo</h1>
+            <aside>
+                <h2>¿Presentas problemas con el DNS?</h2>
+                <p>Cuando se produce un DNS server problem, o problema con las DNS, no se puede acceder a las páginas web, ya que al introducir el nombre del dominio el servidor DNS no es capaz de redireccionar al navegador a su dirección IP asociada...</p>
+                <a href="#dns_p"><button>Ir</button></a>
+            </aside>
+
+            <aside>
+                <h2>¿Cómo resolver problemas de DNS?</h2>
+                <img src="img/img3.jpg" alt="">
+                <a href="#dns_cr"><button>Ir</button></a>
+            </aside>
+
+            <aside>
+                <h2>Utilizar otro navegador</h2>
+                <p>Si no se encuentra el servidor DNS y no hay acceso a internet, el error puede estar producido por el navegador web que se está utilizando...</p>
+                <a href="#uon_dns"><button>Ir</button></a>
+            </aside>
+
+        </div>
+    </div>
+
+    <div class="container-footer">	
+
+        <footer>
+
+            <hr>
+            <h4>2022 Delguis Ferman - Articulo - DNS y la solucion a sus posibles Problemas</h4>
+
+        </footer>
+
+    </div>
+
+    </div>
+
+</body>
+</html>
